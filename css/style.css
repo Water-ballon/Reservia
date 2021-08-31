@@ -369,6 +369,8 @@ li,a {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    
+    
 }
 
 footer {
@@ -386,6 +388,7 @@ ul {
   margin: auto;
   display:flex;
   align-items: center;
+  font-size: 1rem;
 }
 .footer_inner{
   max-width: 1340px;
@@ -659,7 +662,7 @@ img {
 
 .hosting_img {
   
-  height: 130px;
+  height: 115px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border: 4px solid white;
@@ -674,7 +677,8 @@ img {
 
 .popularity_link img{
 width: 40%;
-height: 140px;
+height: 135px;
+min-height: 100px;
 object-fit: cover;
 border-top-left-radius: 20px;
 border-bottom-left-radius: 20px;
@@ -783,3 +787,111 @@ h2{
 .footer_column ul{
   padding-bottom: 35px;
 }
+
+
+.hosting_city_block h3{
+  margin:0;
+}
+
+.hosting_city_block p{
+  margin: 0;
+}
+
+.hosting_link_title{
+  padding: 10px 15px;
+}
+
+.popularity_block_title h3{
+  margin:0;
+  padding-top: 20px;
+}
+
+.popularity_block_title p{
+  margin:0;
+  padding-bottom: 35px;
+  
+}
+
+.hosting_popularity{
+  min-width: 260px;
+}
+
+
+
+h2{
+  font-size: 1.5rem;
+}
+
+/*----------------------------------\
+   Responsive
+\----------------------------------*/
+
+
+ 
+@media(max-width:1441px){
+  .hosting {
+    flex-direction:column-reverse;
+  }
+  .hosting_city{
+    width:100%;
+    margin: 0%;
+    padding:0
+  }
+  .hosting_city h2{
+    padding:30px;
+  }
+
+
+
+
+  .hosting_popularity{
+    width:100%;
+    padding:20px 40px;
+    box-sizing: border-box;
+  }
+  .hosting_popularity_block{
+    display:flex;
+    justify-content: space-between;
+  }
+  .popularity_block{
+    width: 30%;
+  }
+}
+
+@media(max-width:1001px){
+  .hosting_popularity_block{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .popularity_block{
+    width: 100%;
+  }
+  .hosting_city_block li{
+    width: 48%;
+  }
+}
+
+
+
+@media(max-width:601px){
+  .header_inner{
+    flex-wrap: wrap;
+  }
+  .hosting_city_block li{
+    width:100%
+  }
+  .header_menu{
+    order: 1;
+    width: 100%;
+  }
+  .header_menu_item:hover{
+    border-bottom-color: #0065FC;
+    border-top-color:transparent
+  }
+  .header_menu_item{
+    border-bottom: 2px solid #F2F2F2;
+  }
+  
+}
+
