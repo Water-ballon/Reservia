@@ -510,6 +510,7 @@ h1 {
   align-items: center;
   display:flex;
   size: 2rem;
+
 }
 
 .search_form_icon {
@@ -1009,6 +1010,7 @@ h2{
   }
   .searchFormSubmitinputIcon{
     visibility: visible;
+    cursor: pointer;
   }
   .search_form_button{
     display: none;
