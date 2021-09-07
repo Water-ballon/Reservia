@@ -501,6 +501,16 @@ h1 {
     cursor: pointer;
     font-size: 1rem;
 }
+.searchFormSubmitinputIcon{
+  visibility: collapse;
+  background-color:#0065FC ;
+  color: white;
+  border-radius: 0px 1rem 1rem 0px;
+  padding: 0 1.5rem;
+  align-items: center;
+  display:flex;
+  size: 2rem;
+}
 
 .search_form_icon {
     background-color: #F2F2F2;
@@ -715,7 +725,7 @@ border: 4px solid white;
   border-radius: 20px;
   width: 33%;}
 
-.fa-star, .fas {
+.fa-star {
   color: #0065FC;
 }
 
@@ -834,6 +844,7 @@ h2{
 h2{
   font-size: 1.5rem;
 }
+
 
 /*----------------------------------\
    Responsive
@@ -996,7 +1007,12 @@ h2{
     width: 100%;
     margin-bottom: 15px;
   }
-  
+  .searchFormSubmitinputIcon{
+    visibility: visible;
+  }
+  .search_form_button{
+    display: none;
+  }
 }
 
 
