@@ -1008,9 +1008,10 @@ h2{
     width: 100%;
     margin-bottom: 15px;
   }
-  .searchFormSubmitinputIcon{
+  i.searchFormSubmitinputIcon{
     visibility: visible;
     cursor: pointer;
+    display:flex;
   }
   .search_form_button{
     display: none;
