@@ -763,6 +763,9 @@ border: 4px solid white;
   border-bottom-right-radius: 20px;
   flex: 1;
   padding-left: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hosting_popularity_title {
@@ -770,6 +773,10 @@ border: 4px solid white;
   justify-content: space-between;
   align-items: center;
 }
+.popularity_block_title_star{
+  padding-bottom: 5px;
+}
+
 
 .fas.fa-chart-line {
   font-size: large;
@@ -814,7 +821,7 @@ h2{
 
 .popularity_block_title p{
   margin:0;
-  padding-bottom: 35px;
+  flex:auto;
   
 }
 
@@ -884,10 +891,12 @@ h2{
   }
   .activity_liste_simple{
     width: 31%;
+    margin-bottom: 3%;
   }
   .activity_liste_double{
     width: 66%;
     flex-direction: row;
+    margin-bottom: 3%;
   }
   .activity_liste_double_top{
     width: 48%;
