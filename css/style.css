@@ -390,6 +390,7 @@ ul {
   display:flex;
   align-items: center;
   font-size: 1rem;
+  justify-content: space-between;
 }
 .footer_inner{
   max-width: 1440px;
@@ -411,20 +412,21 @@ ul {
 .header_menu {
     display:flex;
     font-weight: 500;
+    flex: 1;
+    justify-content: flex-end;
     
 }
 
 
 .logo { 
-  flex:auto;
   margin-left:5%;
 }
 .header_menu_item {
     padding:2rem;
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
-    width:50%;
     text-align: center;
+    
 }
 
 .header_menu_item:hover{
@@ -853,7 +855,7 @@ h2{
 
 
  
-@media(max-width:1441px){
+@media(max-width:1341px){
   .hosting {
     flex-direction:column-reverse;
   }
@@ -885,7 +887,7 @@ h2{
 }
 
 
-@media(max-width:1051px){
+@media(max-width:991px){
   .hosting_popularity_block{
     display:flex;
     flex-direction: column;
@@ -919,19 +921,21 @@ h2{
 
 }
 
-@media(max-width:800px){
+@media(max-width:767px){
   .footer_inner{
     flex-direction: column;
   }
   footer{
-    padding:20px 30px
+    padding:20px 0px;
   }
   .footer_column{
     width: 100%;
     margin-bottom: 0;
     margin-top: 20px;
   }
-
+  .search_form_input{
+    width: 12rem;
+  }
   .activity img{
     height: 150px;
   }
@@ -952,15 +956,17 @@ h2{
   }
 }
 
-@media(max-width:601px){
+@media(max-width:576px){
   .header_inner{
     flex-wrap: wrap;
   }
   .hosting_city_block li{
-    width:100%
+    width:100%;
+    margin:10px 0 10px 0;
   }
   .hosting_city{
     background: none;
+    padding: 0;
   }
 
   .header_menu{
@@ -973,11 +979,11 @@ h2{
   }
   .header_menu_item{
     border-bottom: 2px solid #F2F2F2;
+    width: 50%;
   }
 
-
   .activity{
-    padding:20px 30px;
+    padding:0 0 25px 0;
   }
   .activity img{
     height: 135px;
@@ -987,7 +993,7 @@ h2{
   }
   .activity_liste_simple{
     width:100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .activity_liste_double{
     flex-direction: column;
@@ -995,12 +1001,18 @@ h2{
     margin:0;
   }
   .activity_liste_double_top{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 100%;
   }
   .activity_liste_double_bottom{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 100%;
+  }
+  .activity h2{
+    padding-top: 25px;
+  }
+  .hosting_popularity{
+    padding:20px 10px
   }
 
 
@@ -1012,9 +1024,31 @@ h2{
     visibility: visible;
     cursor: pointer;
     display:flex;
+    border-radius: 1rem;
+    padding: 0 20px;
+    margin-left: -10px;
   }
   .search_form_button{
     display: none;
+  }
+
+  footer{
+    padding:20px 0 0 0;
+  }
+
+  h1{
+    font-size: 1.5rem;
+  }
+  .search_filter{
+    margin-right: 10px;
+  }
+  .popularity_block{
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  .hosting_popularity_block{
+    padding-top:10px ;
+    padding-bottom:20px ;
   }
 }
 
