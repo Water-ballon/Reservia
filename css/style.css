@@ -855,23 +855,23 @@ h2{
 }
 
 .search_filter:hover{
-  transform: scale(1.01);
+  transform: scale(1.02);
   background-color: #F2F2F2;
 }
 .popularity_block:hover{
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 .block:hover{
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 .activity_liste_simple:hover{
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 .activity_liste_double_top:hover{
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 .activity_liste_double_bottom:hover{
-  transform: scale(1.01);
+  transform: scale(1.02);
 }
 
 /*----------------------------------\
@@ -1072,10 +1072,10 @@ h2{
   }
   .popularity_block{
     margin-bottom: 0;
-    margin-top: 15px;
+    margin-top: 10px;
   }
   .hosting_popularity_block{
-    padding-top:5px ;
+    padding-top:10px ;
     padding-bottom:20px ;
   }
 }
