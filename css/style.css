@@ -855,23 +855,23 @@ h2{
 }
 
 .search_filter:hover{
-  transform: scale(1.02);
+  transform: scale(1.01);
   background-color: #F2F2F2;
 }
 .popularity_block:hover{
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 .block:hover{
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 .activity_liste_simple:hover{
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 .activity_liste_double_top:hover{
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 .activity_liste_double_bottom:hover{
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 /*----------------------------------\
@@ -1040,7 +1040,7 @@ h2{
     padding-top: 25px;
   }
   .hosting_popularity{
-    padding:20px 10px
+    padding:20px 20px
   }
 
 
@@ -1072,10 +1072,10 @@ h2{
   }
   .popularity_block{
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 15px;
   }
   .hosting_popularity_block{
-    padding-top:10px ;
+    padding-top:5px ;
     padding-bottom:20px ;
   }
 }
