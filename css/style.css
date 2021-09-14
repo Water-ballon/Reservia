@@ -555,6 +555,7 @@ input::placeholder {
     height: 51px;
     margin-bottom:15px;
     cursor: pointer;
+    transition-duration:0.1s;
 }
 
 .search_filter span {
@@ -646,7 +647,7 @@ img {
   width: 23%;
   border-radius: 20px;
   box-shadow: 6px 6px 6px #F2F2F2;
-
+  transition-duration:0.1s;
 }
 
 .activity_liste{
@@ -674,12 +675,14 @@ img {
 .activity_liste_double_top{
   border-radius: 20px;
   box-shadow: 6px 6px 6px #F2F2F2;
+  transition-duration:0.1s;
 }
 
 
 .activity_liste_double_bottom{
   border-radius: 20px;
   box-shadow: 6px 6px 6px #F2F2F2;
+  transition-duration:0.1s;
 }
 
 
@@ -756,6 +759,7 @@ border: 4px solid white;
   box-shadow: 6px 6px 6px #dfdfdf;
   border-radius: 20px;
   width: 31%;
+  transition-duration:0.1s;
 }
 
 .popularity_link{
@@ -767,6 +771,8 @@ border: 4px solid white;
   margin-top: 20px;
   margin-bottom: 30px;
   border-radius: 20px;
+  box-shadow: 6px 6px 6px #dfdfdf;
+  transition-duration:0.1s;
 }
 
 .popularity_block_title{
@@ -848,6 +854,25 @@ h2{
   font-size: 1.5rem;
 }
 
+.search_filter:hover{
+  transform: scale(1.02);
+  background-color: #F2F2F2;
+}
+.popularity_block:hover{
+  transform: scale(1.02);
+}
+.block:hover{
+  transform: scale(1.02);
+}
+.activity_liste_simple:hover{
+  transform: scale(1.02);
+}
+.activity_liste_double_top:hover{
+  transform: scale(1.02);
+}
+.activity_liste_double_bottom:hover{
+  transform: scale(1.02);
+}
 
 /*----------------------------------\
    Responsive
@@ -892,9 +917,11 @@ h2{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-bottom: 15px;
   }
   .popularity_block{
     width: 100%;
+    margin-bottom: 10px;
   }
   .hosting_city_block li{
     width: 48%;
